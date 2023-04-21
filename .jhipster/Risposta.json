@@ -1,0 +1,29 @@
+{
+  "changelogDate": "20230420151240",
+  "dto": "mapstruct",
+  "fields": [
+    {
+      "fieldName": "risposte",
+      "fieldType": "String"
+    }
+  ],
+  "jpaMetamodelFiltering": false,
+  "name": "Risposta",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityField": "descrizione",
+      "otherEntityName": "domande",
+      "relationshipName": "domande",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityField": "nome",
+      "otherEntityName": "persona",
+      "relationshipName": "persona",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "serviceClass"
+}

@@ -1,0 +1,16 @@
+{
+  "changelogDate": "20230420144456",
+  "dto": "mapstruct",
+  "fields": [
+    {
+      "fieldName": "descrizione",
+      "fieldType": "String"
+    }
+  ],
+  "jpaMetamodelFiltering": false,
+  "name": "Domande",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceClass"
+}
